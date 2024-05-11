@@ -5,7 +5,7 @@ const app = express();
 
 // Define a route handler for GET requests to the root URL
 app.get('/', (req,res)=> {
-	res.send("Hello champions, Welcome to a complete GitOps CICD demo with Jenkins and Argocd!"); // Send a response with a greeting message
+	res.send("Hello , Welcome to a complete GitOps CICD demo with Jenkins and Argocd!"); // Send a response with a greeting message
  });
 
 // Start listening for incoming connections on port 3000 
